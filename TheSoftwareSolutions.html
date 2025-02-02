@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Software Solutions</title>
+    <!-- <link rel="stylesheet" href="stylesdark.css" /> -->
+    <link id="theme-style" rel="stylesheet" href="styleslight.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="leftitem">
+        <a href="#home"><img src="/assets/companylogo.svg" alt="" /></a>
+        <ul id="navigation">
+          <a href="#home"><li>Home</li></a>
+          <a href="#services-section"><li>Services</li></a>
+          <a href="#projects-section"><li>Projects</li></a>
+          <a href="#contactus-section"><li>Contact</li></a>
+        </ul>
+      </div>
+      <div class="rightitem">
+        <div class="theme-switch">
+          <label class="switch">
+            <input type="checkbox" id="slider" />
+            <span class="slider round"></span>
+          </label>
+          <span class="theme-label">Toggle Theme</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="intro-container" id="home">
+      <div class="hero-picture"></div>
+      <div class="hero-background">
+        <!-- <img src="assets/hero-background.png" alt="" /> -->
+      </div>
+      <div class="introduction">
+        <h1 id="hero-title">The Best Software Solutions</h1>
+        <p id="hero-subtitle">
+          We don't just build software, we craft tailored solutions that solve
+          your unique business challenges and propel you towards your goals. We
+          bring the power of data science and artificial intelligence to every
+          business.
+        </p>
+        <button class="intro-btn" id="hero-button">Our Services</button>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="ourservices-container" id="services-section">
+      <div class="ourservices">
+        <h5>Our Services</h5>
+        <h2>Software solutions for startup and enterprises</h2>
+      </div>
+      <div class="service-detail">
+        <div class="servicename" id="serv1">
+          <img src="/assets/services1.svg" alt="" />
+          <h1>Web Development</h1>
+          <p>
+            We bring the power of data science and artificial intelligence to
+            every business.
+          </p>
+        </div>
+        <div class="servicename" id="serv2">
+          <img src="/assets/services2.svg" alt="" />
+          <h1>App Development</h1>
+          <p>
+            We bring the power of data science and artificial intelligence to
+            every business.
+          </p>
+        </div>
+        <div class="servicename" id="serv3">
+          <img src="/assets/services3.svg" alt="" />
+          <h1>Cyber security</h1>
+          <p>
+            We bring the power of data science and artificial intelligence to
+            every business.
+          </p>
+        </div>
+        <div class="servicename" id="serv4">
+          <img src="/assets/services3.svg" alt="" />
+          <h1>SAAS Development</h1>
+          <p>
+            We bring the power of data science and artificial intelligence to
+            every business.
+          </p>
+        </div>
+        <div class="servicename" id="serv5">
+          <img src="/assets/services1.svg" alt="" />
+          <h1>Cloud Computing</h1>
+          <p>
+            We bring the power of data science and artificial intelligence to
+            every business.
+          </p>
+        </div>
+        <div class="servicename" id="serv6">
+          <img src="/assets/services2.svg" alt="" />
+          <h1>Data Science</h1>
+          <p>
+            We bring the power of data science and artificial intelligence to
+            every business.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Projects -->
+    <div class="page4-container-main">
+      <div class="pageitem1">
+        <div class="pg-4-left">
+          <h5>Industries We Serve</h5>
+          <h2>IT services customized for your industry</h2>
+          <h4>
+            No matter the business, NanoSoft has you covered with industry
+            compliant solutions, customized to your company’s specific needs.
+          </h4>
+        </div>
+      </div>
+      <div class="pageitem2">
+        <div class="industry" id="im">
+          <img src="/assets/stack1.svg" alt="" />
+          <h5>Industries & Manufacturing</h5>
+        </div>
+        <div class="industry" id="edu-health">
+          <img src="/assets/stack2.svg" alt="" />
+          <h5>Education & Health</h5>
+        </div>
+        <div class="industry" id="rtl-com">
+          <img src="/assets/stack3.svg" alt="" />
+          <h5>Retail & Ecommerce</h5>
+        </div>
+        <div class="industry" id="trvl-hsptl">
+          <img src="/assets/stack4.svg" alt="" />
+          <h5>Travel & Hospitality</h5>
+        </div>
+      </div>
+      <div class="projects-container">
+        <div class="projects" id="projects-section">
+          <h5>Projects</h5>
+          <h2>Take a look at our projects</h2>
+        </div>
+
+        <div class="projects-detail">
+          <a
+            href="https://eatsleeprepeat.vercel.app/"
+            style="text-decoration: none">
+            <div class="projectsname" id="serv1">
+              <img src="/assets/Nextlevelfood.png" alt="" />
+              <h1>Next Level Food</h1>
+              <p>
+                NextLevel Food is a platform for foodies to share their favorite
+                recipes with the world. It's a place to discover new dishes, and
+                to connect with other food lovers.
+              </p>
+            </div>
+          </a>
+          <a href="https://emkaan.netlify.app/" style="text-decoration: none">
+            <div class="projectsname" id="serv2">
+              <img src="/assets/emkaan.png" alt="" />
+              <h1>EMKAAN</h1>
+              <p>
+                Portfolio Website with Admin Panel and Blogs functionality.
+                Website make in Next.js
+              </p>
+            </div>
+          </a>
+          <a
+            href="https://mtabba.github.io/movieSearchApp/"
+            style="text-decoration: none">
+            <div class="projectsname" id="serv3">
+              <img src="/assets/metflix.png" alt="" />
+              <h1>METFLIX</h1>
+              <p>App to search and find the movies made with HTML CSS JS.</p>
+            </div>
+          </a>
+          <a href="" style="text-decoration: none">
+            <div class="projectsname" id="serv4">
+              <img src="/assets/linkify.svg" alt="" />
+              <h1>Linkify</h1>
+              <p>
+                A chrome extension to connect linkedin with your CRM. View CRM
+                data right on linkedin and add contacts,deals all without
+                leaving LinkedIn.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="pageitem3">
+        <p>Need a Technology support? Get Started Now</p>
+      </div>
+    </div>
+    <!-- Contact Us -->
+    <div class="contactus-container-main" id="contactus-section">
+      <h5>Contact Us</h5>
+
+      <div class="contactusitem1">
+        <div class="contactus-left">
+          <h2>Get In Touch</h2>
+          <h5>
+            Reach out to us for inquiries, collaborations, or just to say
+            hello.We're here to assist you with any questions you may have. Feel
+            free to give us a call or send us an email. Our team is ready to
+            provide you with the information you need.
+          </h5>
+          <h2>Visit Us</h2>
+          <h5>Lahore, Pakistan</h5>
+          <h2>Connect with Us</h2>
+          <h5>info@softwaresolutions.com</h5>
+          <h5>+92-3064038068</h5>
+        </div>
+        <div class="contactus-right">
+          <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+                <label for="message">Message:</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required></textarea>
+                <button type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer-container">
+      <ul class="footer-col1">
+        <li>
+          <a href="./TheSoftwareSolutions.html"
+            ><img src="/assets/companylogo.svg" alt=""
+          /></a>
+        </li>
+        <li>
+          <a id="text" href="./TheSoftwareSolutions.html"
+            >Duis aute irure dolor inasfa reprehenderit in voluptate velit esse
+            cillum</a
+          >
+        </li>
+        <li>
+          <a id="number" href="./TheSoftwareSolutions.html">10 (87) 738-3940</a>
+        </li>
+        <li>
+          <a id="email" href="./TheSoftwareSolutions.html"
+            >contact@it-kol.com</a
+          >
+        </li>
+        <li></li>
+      </ul>
+
+      <div class="footer-col2">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col2">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#">Drone Mapping</a></li>
+          <li><a href="#"> Real State</a></li>
+          <li><a href="#">Commercial</a></li>
+          <li><a href="#">Construction</a></li>
+        </ul>
+      </div>
+      <div class="footer-col3">
+        <h4>Subscribe newsletter</h4>
+        <p>
+          Subscribe our newsletter to get updates about our services and offers.
+        </p>
+
+        <input
+          type="email"
+          name="EMAIL"
+          id="newsletter-form-email"
+          placeholder=" Email Address "
+          class="placeholder hide-on-focus" />
+      </div>
+    </div>
+    <!-- Footer ends -->
+    <script src="index.js"></script>
+  </body>
+</html>
