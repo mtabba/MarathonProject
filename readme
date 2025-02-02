@@ -1,2 +1,76 @@
-    font-family: "Mulish",sans-serif;
-    font-size: 16px;
+# 📌 Project Showcase Website
+
+A simple project showcase webpage displaying various projects with a clean UI and smooth GSAP animations on scroll. The website is built using **HTML, CSS, JavaScript, and GSAP** for animations.
+
+---
+
+## ✨ Features
+
+✅ Responsive project cards layout  
+✅ Hover effects for better UI/UX  
+✅ Smooth **GSAP ScrollTrigger** animation  
+✅ Easy-to-modify project list  
+✅ Minimalist and clean design
+
+---
+
+## 🚀 Demo
+
+🔗 Live Website: (https://mtabba.github.io/MarathonProject/)
+
+---
+
+## 📂 Folder Structure
+
+```
+📁 project-showcase
+│── 📂 assets            # Images & icons used in the project
+│── 📄 index.html        # Main HTML file
+│── 📄 stylesdark.css    # CSS for styling
+│── 📄 styleslight.css   # CSS for styling
+│── 📄 script.js         # JavaScript (GSAP animations)
+│── 📄 README.md         # Project documentation
+```
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Structure of the website
+- **CSS3** – Styling & responsiveness
+- **JavaScript (GSAP)** – Smooth scroll animations
+
+---
+
+## 📥 Installation & Usage
+
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/mtabba/MarathoProject.git
+   ```
+2. **Navigate to the project folder**
+   ```sh
+   cd MarathonProject
+   ```
+3. **Open `index.html` in your browser**
+
+---
+
+## 📝 Contribution
+
+💡 Feel free to fork and contribute! If you find a bug or have a feature request, open an issue or submit a pull request.
+
+---
+
+## 🏆 Credits
+
+Developed by **Mohsin Ovais (https://github.com/mtabba)** 🚀  
+Icons & Images: Your design assets
+
+---
+
+## 📜 License
+
+This project is open-source and available under the **MIT License**.
+
+---
